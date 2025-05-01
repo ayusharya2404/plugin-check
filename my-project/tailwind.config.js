@@ -6,10 +6,10 @@ module.exports = {
     plugin(function ({ addBase, addComponents, addUtilities, theme }) {
       addBase({
         'h1': {
-          fontSize: theme('fontSize.2xl'),
-        },
-        'h2': {
-          fontSize: theme('fontSize.xl'),
+          fontSize: theme('fontSize.4xl'),
+          fontWeight: theme('fontWeight.bold'),
+          color: theme('colors.blue.600'),
+          
         },
       })
       addComponents({
