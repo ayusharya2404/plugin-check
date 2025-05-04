@@ -5,18 +5,11 @@ function App() {
   return (
     <div className="p-8">
       {/* Using the custom base styles */}
-      <h1 className='test'>This is a heading with custom 2xl font size</h1>
-      
-      <h2>This is a subheading with custom xl font size</h2>
-      
-      {/* Using the custom card component */}
-      <div className="card">
-        <p>This is a card component with custom styling</p>
-      </div>
-      
-      {/* Using the custom utility */}
-      <div className="content-auto mt-4">
-        <p>This element uses the custom content-auto utility</p>
+      <h1 className='text'>This is a heading with custom 2xl font size</h1>
+      <button className='btn-layout-1 btn-color-green'>Press Me</button>
+
+      <div className='card'>
+        <p>khsdjfgdh</p>
       </div>
     </div>
   );
